@@ -1,0 +1,69 @@
+@media only screen and (min-width: 0) and (max-width: 992px) {
+
+	.formulario{
+		width: 100%;
+		margin: 0 0 25px 0;
+		display: none;
+		padding: 10px;
+	}
+
+
+	.cta fieldset{
+		padding: 0;c
+	}
+	.texto-formulario{
+		    padding: 10px 0;
+	}
+	.texto-formulario h2 {
+		text-decoration: none;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: normal;
+		margin: 0;
+		padding: 0px;
+	}
+	.cta fieldset input{
+		font-size: 14px;
+		padding: 10px;
+	}
+	header h1 {
+		float: inherit;
+		text-align: center;
+		font-size: 16px;
+		font-weight: normal;
+		text-transform: none;
+		padding: 15px;
+		line-height: normal;
+	}
+	header img{
+		margin: 0;
+		height: 70px;
+		width: 70px;
+		float: inherit;
+	}
+	header{
+		padding: 5px 0 0 0;
+	}
+
+	.btn-doa{
+		display: block;
+	}
+	#yt-player{
+		width: 100%;
+		height: 170px;
+	}
+	.video h3{
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	header h1{
+		font-size: 24px;
+	}
+	header img{
+		margin-left: 120px;
+	}
+}

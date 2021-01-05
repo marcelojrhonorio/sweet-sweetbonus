@@ -1,0 +1,84 @@
+.wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.flex-row {
+    flex-direction: row;
+    -ms-flex-direction: row
+}
+
+.navbar {
+    background-color: #1F5DAD;
+    padding: .875rem
+}
+
+.navbar .navbar-container {
+    position: relative
+}
+
+@media only screen and (min-width:48em) {
+    .navbar .navbar-container {
+        align-items: center;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        justify-content: space-between
+    }
+}
+
+.navbar .navbar-container .logo {
+    display: block;
+    padding: .625rem 0;
+    text-align: center
+}
+
+.navbar .navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media only screen and (min-width:48em) {
+    .navbar .navbar-nav {
+        width: 350px
+    }
+}
+
+@media only screen and (min-width:48em) {
+    .navbar .navbar-item:last-child {
+        border-left: 2px solid #fff;
+        border-radius: 10px;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid transparent;
+        border-top: 2px solid transparent;
+        padding: 0 .313rem
+    }
+}
+
+.navbar .navbar-link {
+    color: #fff;
+    display: block;
+    font-size: .688rem;
+    padding: .625rem 0;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.navbar .navbar-link:hover {
+    text-decoration: underline
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.scrollAnchor {
+    text-decoration: none;
+}
